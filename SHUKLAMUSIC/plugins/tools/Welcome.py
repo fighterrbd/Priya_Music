@@ -101,7 +101,7 @@ async def auto_state(_, message):
      #   or member.new_chat_member.status in {"banned", "left", "restricted"}
    #     or member.old_chat_member
     #):
-        return
+     #   return
     user = member.new_chat_member.user if member.new_chat_member else member.from_user
     try:
         pic = await app.download_media(
