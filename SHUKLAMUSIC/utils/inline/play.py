@@ -63,14 +63,14 @@ def stream_markup_timer(_, chat_id, played, dur):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="✭ 𝗢𝘄𝗻𝗲𝗿", url="http://t.me/Jani_RP_Lover",),
-            InlineKeyboardButton(text="✭ 𝗖𝗵𝗮𝘁 𝗚𝗖", url="https://t.me/+AaI_GATiYwQ5NjU1",),
+            InlineKeyboardButton(text=" 𝗢𝘄𝗻𝗲𝗿 ", url="http://t.me/Jani_RP_Lover",),
+            InlineKeyboardButton(text=" 𝗖𝗵𝗮𝘁 𝗚𝗖 ", url="https://t.me/+AaI_GATiYwQ5NjU1",),
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+           # InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="❚❚", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
 
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -81,17 +81,17 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+           # InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="❚❚", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
         ], 
         [ 
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="✭ 𝗢𝘄𝗻𝗲𝗿", url="http://t.me/Jani_RP_Lover",),
-            InlineKeyboardButton(text="✭ 𝗖𝗵𝗮𝘁 𝗚𝗖", url="https://t.me/+AaI_GATiYwQ5NjU1",),
+            InlineKeyboardButton(text=" 𝗢𝘄𝗻𝗲𝗿 ", url="http://t.me/Jani_RP_Lover",),
+            InlineKeyboardButton(text=" 𝗖𝗵𝗮𝘁 𝗚𝗖 ", url="https://t.me/+AaI_GATiYwQ5NjU1",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
