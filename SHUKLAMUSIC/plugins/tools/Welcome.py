@@ -102,26 +102,26 @@ async def auto_state(_, message):
    #     or member.old_chat_member
     #):
      #   return
-    user = member.new_chat_member.user if member.new_chat_member else member.from_user
-    try:
-        pic = await app.download_media(
-            user.photo.big_file_id, file_name=f"pp{user.id}.png"
-        )
-    except AttributeError:
-        pic = "AarohiX/assets/upic.png"
-    if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
-        try:
-            await temp.MELCOW[f"welcome-{member.chat.id}"].delete()
-        except Exception as e:
-            LOGGER.error(e)
-    try:
-        welcomeimg = welcomepic(
-            pic, user.first_name, member.chat.title, user.id, user.username
-        )
-        temp.MELCOW[f"welcome-{member.chat.id}"] = await app.send_photo(
-            member.chat.id,
-            photo=welcomeimg,
-            caption=f"""
+   # user = member.new_chat_member.user if member.new_chat_member else member.from_user
+    #try:
+      #  pic = await app.download_media(
+          #  user.photo.big_file_id, file_name=f"pp{user.id}.png"
+     #   )
+    #except AttributeError:
+       # pic = "AarohiX/assets/upic.png"
+   # if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
+        #try:
+         #   await temp.MELCOW[f"welcome-{member.chat.id}"].delete()
+      #  except Exception as e:
+          #  LOGGER.error(e)
+    #try:
+        #welcomeimg = welcomepic(
+     #       pic, user.first_name, member.chat.title, user.id, user.username
+      #  )
+      #  temp.MELCOW[f"welcome-{member.chat.id}"] = await app.send_photo(
+          #  member.chat.id,
+           # photo=welcomeimg,
+            #caption=f"""
 ❤️ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐈𝐧 𝐍𝐞𝐰 𝐆𝐫𝐨𝐮𝐩 ❣️
 ➖➖➖➖➖➖➖➖➖➖➖➖
 🏘{member.chat.title}🥳
