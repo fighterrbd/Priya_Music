@@ -96,11 +96,11 @@ async def auto_state(_, message):
 #async def greet_group(_, member: ChatMemberUpdated):
    # chat_id = member.chat.id
    # A = await wlcm.find_one(chat_id)
-    if (
-        not member.new_chat_member
-        or member.new_chat_member.status in {"banned", "left", "restricted"}
-        or member.old_chat_member
-    ):
+    #if (
+    #    not member.new_chat_member
+     #   or member.new_chat_member.status in {"banned", "left", "restricted"}
+   #     or member.old_chat_member
+    #):
         return
     user = member.new_chat_member.user if member.new_chat_member else member.from_user
     try:
