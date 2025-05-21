@@ -64,7 +64,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(text=" 𝗢𝘄𝗻𝗲𝗿 ", url="http://t.me/Jani_RP_Lover",),
-            InlineKeyboardButton(text=" 𝗖𝗵𝗮𝘁 𝗚𝗖 ", url="https://t.me/+AaI_GATiYwQ5NjU1",),
+            InlineKeyboardButton(text=" 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ", url="https://t.me/+AaI_GATiYwQ5NjU1",),
         ],
         [
            # InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
@@ -91,7 +91,7 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(text=" 𝗢𝘄𝗻𝗲𝗿 ", url="http://t.me/Jani_RP_Lover",),
-            InlineKeyboardButton(text=" 𝗖𝗵𝗮𝘁 𝗚𝗖 ", url="https://t.me/+AaI_GATiYwQ5NjU1",),
+            InlineKeyboardButton(text=" 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ", url="https://t.me/+AaI_GATiYwQ5NjU1",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
