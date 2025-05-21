@@ -26,24 +26,24 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("♡ α∂∂ иσω ♡", url=f"https://t.me/Riya_Xmusic_bot?startgroup=true")
+          InlineKeyboardButton("♡ α∂∂ иσω ♡", url=f"https://t.me/Jani_Music_Robot?start=help")
         ],
         [
-          InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/Riya_chat_support"),
-          InlineKeyboardButton("⌯꯭ 𝐇꯭ ꯭ꭎ ꯭η ꯭𝗍 𝛆꯭ ʀ ꯭🥂꯭ 𝗫꯭ ꯭ᴅ ", url="https://t.me/ll_hunter_lll"),
+          InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/+AaI_GATiYwQ5NjU1"),
+          InlineKeyboardButton("‷𓆩᪵⟶͇̽[ɪ⃪ϻ̱̱֯༏𐏓⃪꯭𓆩꯭𝗝꯭ᴀ꯭፝֟͠ɴ꯭ɪ꯭꯭ ꯭꯭꯭꯭꯭꯭𔘓꯭𓃭͜ ⃟⛦⃕ ̶꯭𝅥ͦ𝆬 ⃪͢,", url="http://t.me/Jani_RP_Lover"),
           ],
                [
-                InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/RIYA_network"),
+                InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/Jani_RP"),
 ],
 [
-InlineKeyboardButton("ᴄʜᴇᴄᴋ", url=f"https://t.me/Riya_xmusic_bot"),
+InlineKeyboardButton("ᴄʜᴇᴄᴋ", url=f"https://t.me/+AaI_GATiYwQ5NjU1"),
 
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://files.catbox.moe/vuas5e.jpg",
+        photo="https://files.catbox.moe/5aj1rl.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
